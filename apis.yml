@@ -1,22 +1,72 @@
 aid: buzzer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buzzer.png
 name: Buzzer
-description: Buzzer is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Buzzer was a mobile live-sports streaming startup founded in 2020 by Bo Han, formerly director
+  of live content at Twitter. Its consumer app, launched in 2021, sold micropayment access — as low as $0.99
+  to $1 — to short in-game moments of live sporting events, targeting Gen Z fans who would not buy a full
+  cable or league subscription. Buzzer secured streaming rights covering the NBA, WNBA, NHL, PGA Tour and
+  ATP Tour, and raised roughly $44 million in total, including a $20 million Series A in June 2021 co-led
+  by Sapphire Sport and Canaan Partners alongside a large group of athlete and team-owner investors. On
+  19 May 2023 the company shut down the direct-to-consumer app and pivoted to a business-to-business model
+  branded "Powered by Buzzer", announced as API licensing, custom development and consulting for leagues,
+  teams and networks streaming direct to fans. That offering never reached public availability: Buzzer
+  ceased all operations on 30 June 2023, citing "recent fundraising developments and market dynamics".
+  No public developer portal, API documentation, specification, SDK or package was ever published. The
+  buzzer.com domain no longer hosts the company and now redirects to an Atom.com domain-for-sale listing.
+  Retained in the network as a historical record of a defunct company; not an active API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/buzzer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - canaan-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-status-detail: Ceased all operations 30 June 2023; buzzer.com now parked for sale at Atom.com.
+x-defunct-date: '2023-06-30'
+x-founded: '2020'
+x-references:
+- title: Buzzer Secures $20 Million In Series A Financing Led By Sapphire Sport, Canaan Partners
+  url: https://www.prnewswire.com/news-releases/buzzer-secures-20-million-in-series-a-financing-led-by-sapphire-sport-canaan-partners-and-a-dynamic-collective-of-superstar-athletes-and-team-owners-301323154.html
+- title: Buzzer to shutdown app and shift to becoming sports tech provider
+  url: https://www.sportspro.com/news/buzzer-app-shut-down-sports-tech-provider-licensing-mobile-streaming-bo-han/
+- title: Buzzer, the Gen Z Sports App Backed by $44 Million, Shuts Down
+  url: https://frontofficesports.com/buzzer-the-gen-z-sports-app-backed-by-44-million-shuts-down/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Defunct
+- Sports
+- Streaming
+- Media
+- Live Video
+- Consumer Apps
+- Sports Technology
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: 'Company defunct since 2023-06-30; no API surface was ever published. Probed buzzer.com
+    (302 to atom.com domain sale), api./developer./docs. subdomains (no DNS), /.well-known/security.txt
+    (404), /llms.txt (404), npm and PyPI (only unrelated third-party packages by other authors),
+    and the Wayback Machine (no archived developer docs). No artifacts fabricated.'
