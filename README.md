@@ -64,6 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Buzzer is a company surfaced as a portfolio company of canaan-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: canaan-partners
+Buzzer was a mobile live-sports streaming startup founded in 2020 by Bo Han, formerly director of live content at Twitter. Its consumer app, launched in 2021, sold micropayment access — as low as $0.99 to $1 — to short in-game moments of live sporting events, targeting Gen Z fans who would not buy a full cable or league subscription. Buzzer secured streaming rights covering the NBA, WNBA, NHL, PGA Tour and ATP Tour, and raised roughly $44 million in total, including a $20 million Series A in June 2021 co-led by Sapphire Sport and Canaan Partners alongside a large group of athlete and team-owner investors. On 19 May 2023 the company shut down the direct-to-consumer app and pivoted to a business-to-business model branded "Powered by Buzzer", announced as API licensing, custom development and consulting for leagues, teams and networks streaming direct to fans. That offering never reached public availability: Buzzer ceased all operations on 30 June 2023, citing "recent fundraising developments and market dynamics". No public developer portal, API documentation, specification, SDK or package was ever published. The buzzer.com domain no longer hosts the company and now redirects to an Atom.com domain-for-sale listing. Retained in the network as a historical record of a defunct company; not an active API provider.
+
+**Areas:** Company · Defunct · Sports · Streaming · Media · Live Streaming · Consumer App · Sports Technology
+
+## Buzzer on APIs.io (historical record)
+
+Everything profiled for Buzzer is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/buzzer/](https://apis.io/providers/buzzer/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Buzzer: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/buzzer/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
